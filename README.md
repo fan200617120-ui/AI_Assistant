@@ -1,10 +1,19 @@
 # AI_Assistant
-一键部署本地 AI 助手（Ollama + Gradio）;One‑click deployment for a local AI assistant (Ollama + Gradio).
+一键部署本地 AI 助手（Ollama + Gradio）;
+One‑click deployment for a local AI assistant (Ollama + Gradio).
+
 本地AI助手整合包 完整使用+初始化指南
+
 轻舟 AI・LightShip —— 轻舟渡万境，一智载千灵。
 One Ship, All Souls. One AI, All Minds.
-一个极简、便携的本地 AI 基础框架，解压即用，模型自备。====================================================
+一个极简、便携的本地 AI 基础框架，解压即用，模型自备。
+====================================================
 本工具提供本地运行的聊天界面，支持多模态图片识别、记忆对话、在线AI入口及提示词模板。
+![Chat UI 界面展示](https://github.com/fan200617120-ui/AI_Assistant/blob/main/chat_ui.png?raw=true)
+<br>
+*本地AI助手的Chat UI界面*
+
+https://github.com/fan200617120-ui/AI_Assistant/blob/main/chat_ui.png
 
 通过网盘分享的文件：本地AI部署
 链接: https://pan.baidu.com/s/1OTsi50VMkwVc_znh5uMpLQ?pwd=6688 提取码: 6688
