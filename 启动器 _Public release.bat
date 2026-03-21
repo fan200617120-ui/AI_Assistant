@@ -1,13 +1,15 @@
 @echo off
 chcp 65001 >nul
-title AI助手启动器
+title 轻舟 AI・LightShip AI 启动器
 color 0B
 
 :menu
 cls
 echo ========================================
-echo          AI助手启动器
+echo           轻舟 AI・LightShip AI
 echo ========================================
+echo.
+echo          轻舟渡万境，一智载千灵。
 echo.
 echo 请选择要启动的选项（直接输入数字）：
 echo.
@@ -53,9 +55,10 @@ if not exist "%~dp0models" mkdir "%~dp0models"
 start "Ollama服务" cmd /c "set OLLAMA_MODELS=%~dp0models && ollama serve"
 
 :: 等待服务启动（可根据实际情况调整）
+echo.
 echo 等待服务初始化（约3秒）...
+echo.
 timeout /t 3 /nobreak >nul
-
 echo.
 echo ========================================
 echo 正在启动 AI助手界面（%SCRIPT%）...
@@ -79,9 +82,12 @@ echo.
 echo ========================================
 echo 正在启动 Ollama 服务（仅服务）...
 echo ========================================
+echo.
 if not exist "%~dp0models" mkdir "%~dp0models"
 start "Ollama服务" cmd /c "set OLLAMA_MODELS=%~dp0models && ollama serve"
+echo.
 echo Ollama 服务已在新窗口启动。
+echo.
 echo 请勿关闭该窗口。
 echo.
 echo 提示：如需永久指定模型目录，可设置系统环境变量 OLLAMA_MODELS=%~dp0models
